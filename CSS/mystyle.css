@@ -1,0 +1,14 @@
+body {      /* I change the font type and add a pattern for the background of the webpage */
+    font-family: 'Roboto', sans-serif;
+    background-image: url('../IMAGES/webb.png');
+    background-repeat: repeat;
+
+}
+* {
+    box-sizing: border-box; /*  To prevent it from overflowing its container when applying padding */
+       
+}
+
+.wrap  {
+    flex-wrap: wrap;          /* To ensure that when using d-flex they do not occupy more than the screen */
+}
